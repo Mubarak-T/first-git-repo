@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+}
+
+header {
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+}
+
+header img{
+    height: 70px;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section-1 h1{
+    font-size: 55px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#section-1 p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#main-section-content{
+    width: 1500px;
+}
+
+#section-1{
+    padding: 100px;
+    background-image: url("https://www.team-bhp.com/sites/default/files/pictures2021/2021-honda-accord%20%2810th-gen%29.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px; /* Set a minimum height */
+}
+
+.btn{
+    background-color: orangered;
+    color: white; 
+    padding: 10px; 
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
