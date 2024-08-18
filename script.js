@@ -264,20 +264,30 @@
 
 
 
-let nums = [1,8,8,7,2,9]
+// let nums = [1,8,8,7,2,9]
 
-let check = 10
-let exist = false
+// let check = 10
+// let exist = false
 
-for (let i = 0; i<nums.length; i++){
-  if(nums[i] == check){
-    exist = true
-    break
+// for (let i = 0; i<nums.length; i++){
+//   if(nums[i] == check){
+//     exist = true
+//     break
+//   }
+// }
+// if (exist){
+//   console.log("Exist");
+// }
+// else{
+//   console.log("Does not exist"); 
+// }
+
+function verifyAge(){
+  let age = document.getElementById("age-input").value
+  if(age >= 18){
+    document.getElementById("eligibility").textContent = "Eligible"
   }
-}
-if (exist){
-  console.log("Exist");
-}
-else{
-  console.log("Does not exist"); 
+  else{
+    document.getElementById("eligibility").textContent = "Not eligible"
+  }
 }
